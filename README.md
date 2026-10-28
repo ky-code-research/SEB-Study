@@ -91,5 +91,18 @@ The smoke test checks domain counts/order, synthetic participant-visit uniquenes
 
 ## Reproducibility scope
 
-The code release supports inspection of variable construction, model equations, robust covariance, contrasts, multiplicity families, clustering, and missing-data handling. Reproducing the exact paper values additionally requires access to the authorized frozen PROUD data and the locked software environments. No GitHub repository has been created and nothing has been uploaded by the preparation process.
+The code release supports inspection of variable construction, model equations, robust covariance, contrasts, multiplicity families, clustering, and missing-data handling. Reproducing the exact paper values additionally requires access to the authorized frozen PROUD data and the locked software environments. The analysis code is publicly available at https://github.com/kaiyangan111-sys/PROUD-SideEffectBurden.
 
+
+## License and attribution
+
+This repository is released under the MIT License. See LICENSE for details.
+
+The `fay_df_v1()` implementation in `analysis/site_clustered_sandwich_gate.py` is a Python algebraic reimplementation informed by the Fay–Graubard method and `geex::fay_df_correction(version=1)`.
+
+The geex package (Copyright © 2017 Bradley Saul) is licensed under the MIT License. Its source code is not bundled with this repository.
+
+- geex source: https://github.com/bsaul/geex
+- geex license: https://github.com/bsaul/geex/blob/c9fc32ce456a5affbf783e5c7bb09a9f1fb17705/LICENSE.md
+
+Third-party Python and R packages remain subject to their respective licenses.
