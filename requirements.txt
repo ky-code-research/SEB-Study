@@ -1,0 +1,8 @@
+# Versions recorded in the locked Python analysis environment
+numpy==1.26.0
+pandas==2.2.3
+scipy==1.15.2
+statsmodels==0.14.2
+patsy==1.0.1
+openpyxl==3.1.2
+
