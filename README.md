@@ -91,7 +91,7 @@ The smoke test checks domain counts/order, synthetic participant-visit uniquenes
 
 ## Reproducibility scope
 
-The code release supports inspection of variable construction, model equations, robust covariance, contrasts, multiplicity families, clustering, and missing-data handling. Reproducing the exact paper values additionally requires access to the authorized frozen PROUD data and the locked software environments. The analysis code is publicly available at https://github.com/kaiyangan111-sys/PROUD-SideEffectBurden.
+The code release supports inspection of variable construction, model equations, robust covariance, contrasts, multiplicity families, clustering, and missing-data handling. Reproducing the exact paper values additionally requires access to the authorized frozen PROUD data and the locked software environments. The analysis code is publicly available at https://github.com/ky-code-research/SEB-Study.
 
 
 ## License and attribution
