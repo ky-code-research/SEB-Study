@@ -1,0 +1,63 @@
+# Patient/research data: never commit
+data/
+restricted/
+private/
+**/*.xlsx
+**/*.xls
+**/*.xlsb
+**/*.csv
+**/*.tsv
+**/*.parquet
+**/*.feather
+**/*.rds
+**/*.RData
+**/*.sav
+**/*.dta
+**/*.sas7bdat
+**/*.ndjson
+
+# Generated results and potentially patient-level intermediates
+outputs/
+# Backward-compatible guard for pre-release IPW scripts that wrote at repository root.
+Reviewer1_Comment3_Attrition/
+results/
+scratch/
+tmp/
+temp/
+checkpoints/
+_checkpoints/
+**/*.log
+**/logs/
+**/*.pkl
+**/*.pickle
+**/*.joblib
+
+# Notebooks and caches
+.ipynb_checkpoints/
+**/*.ipynb
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.Rhistory
+.Rproj.user/
+
+# Environments and secrets
+.venv/
+venv/
+renv/library/
+.env
+.env.*
+!config.example.env
+*.pem
+*.key
+*token*
+*secret*
+*credential*
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
